@@ -1,1 +1,1 @@
-web: bin/go-server
+web: bin/cmd/go-server
