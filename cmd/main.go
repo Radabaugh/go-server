@@ -7,6 +7,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	_ "github.com/heroku/x/hmetrics/onload"
+	precompiler "github.com/parnic/go-assetprecompiler"
 )
 
 func main() {
