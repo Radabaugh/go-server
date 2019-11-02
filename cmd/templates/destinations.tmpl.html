@@ -2,15 +2,17 @@
   {{template "header.tmpl.html"}}
 <body>
   {{template "nav.tmpl.html"}}
-  <h1>Datastore Destinations</h1>
 
-  <button type="button" class="btn btn-dark">New Datastore Destination</button>
+  <div id="content-containter"></div>
+    <h1>Datastore Destinations</h1>
 
-  <br></br>
+    <button type="button" class="btn btn-dark">New Datastore Destination</button>
 
-  <table class="table table-hover">
-    <thead>
-      <tr>
+    <br></br>
+
+    <table class="table table-hover">
+      <thead>
+        <tr>
           <th scope="col">Name</th>
           <th scope="col">Adapter</th>
           <th scope="col">Host</th>
@@ -18,10 +20,11 @@
           <th scope="col">Schema</th>
           <th scope="col">Username</th>
           <th scope="col"></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
           <td><a href=#>Datawarehouse</a></td>
           <td>PostgreSQL</td>
           <td>localhost</td>
@@ -29,8 +32,11 @@
           <td></td>
           <td>funnel</td>
           <td><a href=#>Edit</a> | <a href=#>Destroy</a></td>
-      </tr>
-    </tbody>
-  </table>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  {{template "footer.tmpl.html"}}
 </body>
 </html>
