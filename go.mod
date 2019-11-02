@@ -11,6 +11,6 @@ require (
 	github.com/mattn/go-isatty v0.0.10 // indirect
 	github.com/parnic/go-assetprecompiler v0.0.0-20190706220300-66068c401014
 	github.com/tdewolff/test v1.0.5 // indirect
-	github.com/ugorji/go/codec v1.1.7 // indirect
+	github.com/ugorji/go v1.1.7 // indirect
 	gopkg.in/yaml.v2 v2.2.4 // indirect
 )
